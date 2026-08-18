@@ -1,0 +1,85 @@
+{
+  "name": "NIYAZI CAN ÇINKIR",
+  "title": "SOFTWARE ENGINEER",
+  "email": "**********",
+  "phone": "+90 (000) 000 00 00",
+  "location": "Izmir, Turkiye",
+  "github": "github.com/Niyazicancinkir",
+  "linkedin": "www.linkedin.com/in/niyazi-can-çinkir-a1429821a",
+  "summary": "AI entegrasyonu, masaüstü uygulama mimarisi ve yüksek performanslı backend sistemlerinde uzmanlaşmış Yazılım Mühendisi. .NET ekosisteminde ONNX Runtime, model quantization ve lokal inference süreçlerinde derin deneyim sahibiyim. MSSQL performans tuning, milisaniye odaklı render optimizasyonu ve AI tabanlı anomali tespiti konularında ürün odaklı mühendislik yaklaşımı sergiliyorum. Karmaşık veri akışlarını optimize ederek saniye altı performans hedeflerine ulaşan, hata sınıflandırma ve akıllı CRUD çözümleri geliştiren teknik bir uzmanım.",
+  "experience": [
+    {
+      "role": "Backend Developer",
+      "company": "Bubilet",
+      "period": "Mayıs 2025 - Halen",
+      "location": "Izmir, Turkiye",
+      "description": "Yüksek trafikli sistemlerde performans accountability ilkesiyle mikroservis mimarileri yönetiyorum. MSSQL üzerinde ileri seviye T-SQL sorgu optimizasyonu, karmaşık indeksleme ve akıllı cache mekanizmaları ile sistem yanıt sürelerini minimize ediyorum. Veri erişim katmanını iyileştirerek, ölçeklenebilir ve sürdürülebilir altyapılar geliştiriyor; operasyon izleme kültürü ile hata yönetimi süreçlerini optimize ediyorum."
+    },
+    {
+      "role": "Jr. Full Stack Developer",
+      "company": "Vinter AI Recruitment Platform",
+      "period": "Ekim 2024 - Mayıs 2025",
+      "location": "Izmir, Turkiye",
+      "description": "AI destekli işe alım süreçlerinde C# ve .NET ile REST API çözümleri geliştirdim. PostgreSQL üzerinde query tuning ve veri eşleştirme optimizasyonları ile operasyonel verimliliği artırdım. AI entegrasyonları, performans test süreçleri ve UI/Backend entegrasyonunda yüksek standartlı kod geliştirme pratikleri uyguladım."
+    },
+    {
+      "role": "N'Talent Full Stack Developer",
+      "company": "Norm Digital",
+      "period": "Aralık 2023 - Ekim 2024",
+      "location": "Izmir, Turkiye",
+      "description": "Agile metodolojilerle performans odaklı API servisleri inşa ettim. UI bileşenlerinin render performansını artırmaya yönelik kritik inisiyatifler alarak bellek yönetimi ve threading süreçlerinde optimizasyon sağladım. SQL veritabanı tasarımı, indeksleme ve sorgu optimizasyonunda disiplinli bir yaklaşım sergiledim."
+    },
+    {
+      "role": "Finance 101 Intern",
+      "company": "QNB Finansbank",
+      "period": "Ağustos 2022 - Eylül 2022",
+      "location": "Izmir, Turkiye",
+      "description": "Finansal sistem mimarisi, veri işleme standartları ve bankacılık uygulamalarında güvenli veri akışları ile loglama süreçleri üzerine teknik analiz çalışmaları gerçekleştirdim."
+    }
+  ],
+  "skills": [
+    "C#",
+    ".NET",
+    "T-SQL",
+    "MSSQL Performance Tuning",
+    "Query Optimization",
+    "ONNX Runtime",
+    "Model Quantization",
+    "AI Model Integration",
+    "Anomaly Detection",
+    "Memory Management",
+    "Threading",
+    "UI Render Optimization",
+    "REST API",
+    "Docker",
+    "AWS",
+    "Git"
+  ],
+  "certifications": [
+    "Finance 101 certificate",
+    "Database Query With SQL -301",
+    "Introduction to Machine Learning",
+    "React Native 301 Certificate",
+    "Network Fundamentals"
+  ],
+  "education": [
+    {
+      "school": "İzmir Bakırçay Üniversitesi",
+      "degree": "BSc, Computer Engineering",
+      "period": "Ekim 2021 - Haziran 2025",
+      "gpa": "3.50 / 4.00"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Text Summarizer App",
+      "description": "LLM'ler ve Tesseract OCR kullanarak metin ve görsel içeriği özetleyen AI destekli sistem. AWS EC2 üzerinde Docker ile deploy edilen projede, lokal inference akışlarını optimize ederek milisaniye düzeyinde yanıt süresi hedeflenmiştir.",
+      "url": null
+    },
+    {
+      "name": "Cooking Recipe App",
+      "description": "Redux, Stack Navigation ve Context API ile geliştirilmiş yüksek performanslı arayüz bileşenleri. Git SCM süreçleri ve modüler mimari ile sürdürülebilir kod geliştirme pratikleri uygulanmıştır.",
+      "url": null
+    }
+  ]
+}

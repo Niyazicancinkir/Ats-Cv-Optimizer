@@ -1,0 +1,53 @@
+Senior Software Developer – AI - Enhanced
+PALMET BT kurumsal yazılım ürünlerini, veri ve performansa dayalı mimariyle geliştiriyor; ürün ekosistemine AI yetenekleri kazandırıyor. Bu nedenleuygulamalara AI entegre edebilen bir geliştirici arayışındayız. Çalışma Lokasyonu Kocaeli Teknopark’dır.
+
+Görev ve Sorumluluklar
+
+Masaüstü yazılım ürünlerini platforma bağlı kalmadan geliştirmek ve teknik liderliğini üstlenmek
+Modern UI bileşenleriyle performans odaklı arayüzler tasarlamak ve optimize etmek
+MSSQL Server üzerinde T-SQL, index & query tuning ile performans iyileştirmeleri yapmak
+Veri akışlarını analiz edip akıllı cache, lazy-load ve saniye altı render hedefi ile tuning yapmak
+Ürün içine AI destekli, öngörü, hata sınıflandırma ve akıllı CRUD hızlandırma yetenekleri entegre etmek
+Machine learning veya kural-tabanlı modellerle masaüstü tarafında karar sistemleri kurmak
+ONNX Runtime veya benzeri inference motorlarıylalokalde model çalıştırmak
+Akıllı hata analizi için logları AI ile sınıflandırmak, anomaly tespit etmek ve otomatik issue önerisi üretmek
+Git ile ekip geliştirme süreçlerini yürütmek
+Gereksinimleri sorgulayıp teknik çözüm alternatifleri sunmak
+AI Yetkinlik Beklentileri
+
+Aşağıdaki alanlardan en az birinde uygulanabilir deneyim:
+
+ML model inference çalıştırma
+Loglardan anomali / pattern / hata tiplerini sınıflandırma
+CRUD hızlandırma için AI destekli form önerisi, validasyon ve veri eşleştirme optimizasyonu
+Edge-AI workflow’ları, batch prediction, training saatleri değillokal inference akışlarına odak
+Gerekirse model quantization, performans/ram footprint küçültme tecrübesi
+Aradığımız Nitelikler
+
+Bilgisayar, Yazılım veya ilgili mühendislik bölümlerindenüniversite mezunu
+Minimum 5 yıl yazılım geliştirme deneyimi
+UI performansı, bellek yönetimi, threading ve render optimizasyonu konusunda güçlü
+Stored procedure, query tuning ve veri optimizasyonunda disiplinli yaklaşım
+Yeni teknolojileri önce sorgulayan, sonra uygulayan mühendislik bakışı
+Masaüstü yazılımı yalnızca UI değil, veri+performans+AI üçgeni olarak değerlendiren yaklaşım
+Debug, loglama, exception handling veoperasyon izleme kültürüne sahip
+Teknik Yetkinlikler (Zorunlu / Tercih)
+
+Zorunlu:
+C# veya .NET yazılım geliştirme, T-SQL, query optimizasyonu, bellek & UI performans tuning
+Tercih:
+DevExpress/modern UI suite’ler, REST API entegrasyonları, inference motorları, model lokal çalıştırma
+Çalışma Kültürü
+
+Model training’inde saatler değil, desktop inference’da milisaniyeler konuşulur
+Trend-deploy değil › araştır-kanıtla-optimize et-entegre et
+Gerçek ürün sahipliği, teknik inisiyatif ve performans accountability
+Aday Kriterleri
+• Tecrübe
+En az 5 yıl tecrübeli
+• Eğitim Seviyesi
+Üniversite(Mezun)
+• Askerlik Durumu
+Yapıldı, Muaf
+• Yabancı Dil
+İngilizce(Okuma : İyi, Yazma : İyi, Konuşma : İyi)

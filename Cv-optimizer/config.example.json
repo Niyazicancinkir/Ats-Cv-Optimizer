@@ -1,0 +1,8 @@
+{
+  "GEMINI_API_KEY": "",
+  "TARGET_JOB_URL": "https://example.com/job-posting",
+  "BASE_CV_PATH": "data/your_cv.json",
+  "TEMPLATE_PATH": "template.html",
+  "OUTPUT_PDF_PATH": "output/optimized_cv.pdf",
+  "RAW_CV_PATH": "data/your_raw_cv.pdf"
+}
