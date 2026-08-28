@@ -1,0 +1,24 @@
+# Local secrets and runtime configuration
+config.json
+.env
+.env.*
+!.env.example
+
+# Personal CV data and uploaded files
+data/
+niyazi_can_cinkir_cv.json
+ilan.txt
+
+# Generated documents, reports, and logs
+output/
+*.pdf
+*.docx
+*.log
+
+# Python and IDE artifacts
+__pycache__/
+*.py[cod]
+.idea/
+.pytest_cache/
+.venv/
+venv/

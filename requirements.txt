@@ -1,0 +1,8 @@
+beautifulsoup4
+google-generativeai
+google-genai
+jinja2
+playwright
+pypdf
+python-docx
+streamlit

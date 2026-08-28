@@ -1,0 +1,8 @@
+{
+  "GEMINI_API_KEY": "",
+  "TARGET_JOB_URL": "https://www.kariyer.net/is-ilani/palmet-sirketler-grubu-senior-software-developer-ai-enhanced-4342787",
+  "BASE_CV_PATH": "data/niyazi_can_cinkir_cv.json",
+  "TEMPLATE_PATH": "template.html",
+  "OUTPUT_PDF_PATH": "output/optimized_cv.pdf",
+  "RAW_CV_PATH": "data/niyazi_can_cinkir_ham.pdf"
+}

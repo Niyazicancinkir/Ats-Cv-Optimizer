@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{name}} - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #000000;
+            line-height: 1.4;
+            margin: 40px 50px;
+            font-size: 11pt;
+        }
+        h1 { 
+            font-size: 24pt; 
+            margin-bottom: 4px; 
+            text-transform: uppercase; 
+            text-align: center; 
+        }
+        .job-title-header {
+            text-align: center;
+            font-size: 13pt;
+            font-weight: bold;
+            color: #374151;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .contact-info { 
+            text-align: center; 
+            font-size: 10pt; 
+            margin-bottom: 25px; 
+            color: #333; 
+        }
+        .contact-info a { 
+            color: #333; 
+            text-decoration: none; 
+        }
+        h2 { 
+            font-size: 13pt; 
+            border-bottom: 1px solid #000; 
+            padding-bottom: 4px; 
+            margin-top: 22px; 
+            margin-bottom: 10px; 
+            text-transform: uppercase; 
+        }
+        .section-item { 
+            margin-bottom: 24px; 
+        }
+        .flex-header { 
+            display: flex; 
+            justify-content: space-between; 
+            margin-bottom: 3px; 
+        }
+        .title { font-weight: bold; font-size: 11.5pt; }
+        .date { font-style: italic; font-size: 10.5pt; }
+        .subtitle { font-weight: bold; font-size: 11pt; color: #444; }
+        .desc { 
+            margin-top: 5px; 
+            text-align: justify; 
+            padding-left: 15px; 
+            text-indent: -10px;
+        }
+        .skills-list { 
+            line-height: 1.6; 
+            font-size: 10.5pt; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>{{name}}</h1>
+    <div class="job-title-header">{{title}}</div>
+    <div class="contact-info">
+        {{location}} | {{email}} | {{phone}}<br>
+        <a href="https://{{linkedin}}">{{linkedin}}</a> | <a href="https://{{github}}">{{github}}</a>
+    </div>
+
+    {% if summary %}
+    <h2>Professional Summary</h2>
+    <div class="desc">{{summary}}</div>
+    {% endif %}
+
+    <h2>Work Experience</h2>
+    {% for job in experience %}
+    <div class="section-item">
+        <div class="flex-header">
+            <span class="title">{{job.role}}</span>
+            <span class="date">{{job.period}}</span>
+        </div>
+        <div class="flex-header">
+            <span class="subtitle">{{job.company}}</span>
+            <span class="date" style="font-size: 10pt; color: #555; font-style: normal;">{{job.location}}</span>
+        </div>
+        <div class="desc">
+            • {{job.description}}
+        </div>
+    </div>
+    {% endfor %}
+
+    {% if projects %}
+    <h2 style="break-before: page; page-break-before: always;">Projects & Engineering Work</h2>
+    {% for proj in projects %}
+    <div class="section-item">
+        <div class="flex-header">
+            <span class="title">{{proj.name}}</span>
+            {% if proj.url %}<span class="date"><a href="{{proj.url}}">View Project</a></span>{% endif %}
+        </div>
+        <div class="desc">• {{proj.description}}</div>
+    </div>
+    {% endfor %}
+    {% endif %}
+
+    <h2 >Education</h2>
+    {% for edu in education %}
+    <div class="section-item">
+        <div class="flex-header">
+            <span class="title">{{edu.school}}</span>
+            <span class="date">{{edu.period}}</span>
+        </div>
+        <div class="subtitle">{{edu.degree}} | GPA: {{edu.gpa}}</div>
+    </div>
+    {% endfor %}
+
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+        {{skills | join(', ')}}
+    </div>
+
+    {% if certifications %}
+    <h2>Certifications</h2>
+    <div class="skills-list">
+        {{certifications | join(' | ')}}
+    </div>
+    {% endif %}
+
+</body>
+</html>
